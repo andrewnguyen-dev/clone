@@ -1,0 +1,56 @@
+<?php
+
+	$states_timezone_names = array(
+		'SA'=>'Australia/South',
+		'QLD'=>'Australia/Queensland',
+		'ACT'=>'Australia/ACT',
+		'NT'=>'Australia/North',
+		'TAS'=>'Australia/Tasmania',
+		'VIC'=>'Australia/Victoria',
+		'WA'=>'Australia/West',
+		'NSW'=>'Australia/NSW'
+	);
+
+	$WZ_Import_Locations = array(
+		'Adelaide'=>array(
+			'latitude'=>-34.925800,
+			'longitude'=>138.599700,
+			'state'=>'SA',
+		),
+		'Brisbane'=>array(
+			'latitude'=>-27.467600,
+			'longitude'=>153.027900,
+			'state'=>'QLD',
+		),
+		'Canberra'=>array(
+			'latitude'=>-35.282000,
+			'longitude'=>149.128600,
+			'state'=>'ACT',
+		),
+		'Darwin'=>array(
+			'latitude'=>-12.4613,
+			'longitude'=>130.8419,
+			'state'=>'NT',
+		),
+		'Hobart'=>array(
+			'latitude'=>-42.8827,
+			'longitude'=>147.3302,
+			'state'=>'TAS',
+		),
+		'Melbourne'=>array(
+			'latitude'=>-37.8413,
+			'longitude'=>144.9774,
+			'state'=>'VIC',
+		),
+		'Perth'=>array(
+			'latitude'=>-31.9554,
+			'longitude'=>115.8586,
+			'state'=>'WA',
+		),
+		'Sydney'=>array(
+			'latitude'=>-33.8671,
+			'longitude'=>151.2071,
+			'state'=>'NSW',
+		)
+	);
+?>

@@ -1,0 +1,7 @@
+.env
+temp/*
+credentials.json
+token.json
+solarquotes_firebase_service_account.json
+.firebase_token
+.oauth2l
